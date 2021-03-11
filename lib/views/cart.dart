@@ -216,31 +216,31 @@ class Cart extends StatelessWidget {
                                           SizedBox(
                                             height: 20,
                                           ),
-                                          Row(
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.spaceBetween,
-                                            children: [
-                                              Text(
-                                                'Total vat',
-                                                style: TextStyle(
-                                                    fontSize: 20,
-                                                    color: Colors.black,
-                                                    fontWeight:
-                                                        FontWeight.bold),
-                                              ),
-                                              Text(
-                                                '₱ ${menuController.totalVat().toStringAsFixed(2)}',
-                                                style: TextStyle(
-                                                    fontSize: 20,
-                                                    color: Colors.black,
-                                                    fontWeight:
-                                                        FontWeight.bold),
-                                              ),
-                                            ],
-                                          ),
-                                          SizedBox(
-                                            height: 30,
-                                          ),
+//                                          Row(
+//                                            mainAxisAlignment:
+//                                                MainAxisAlignment.spaceBetween,
+//                                            children: [
+//                                              Text(
+//                                                'Total vat',
+//                                                style: TextStyle(
+//                                                    fontSize: 20,
+//                                                    color: Colors.black,
+//                                                    fontWeight:
+//                                                        FontWeight.bold),
+//                                              ),
+//                                              Text(
+//                                                '₱ ${menuController.totalVat().toStringAsFixed(2)}',
+//                                                style: TextStyle(
+//                                                    fontSize: 20,
+//                                                    color: Colors.black,
+//                                                    fontWeight:
+//                                                        FontWeight.bold),
+//                                              ),
+//                                            ],
+//                                          ),
+//                                          SizedBox(
+//                                            height: 30,
+//                                          ),
                                           Obx(
                                             () => menuController
                                                     .isValidVoucher.isTrue

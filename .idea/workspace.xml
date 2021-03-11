@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="757debd7-1e24-40a0-8618-67bbea1e3f82" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/lib/config/config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config/config.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/controllers/menu_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/controllers/menu_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/order_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/order_item.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/views/cart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/cart.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/views/menu_category_items_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/menu_category_items_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/views/order_summary_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/order_summary_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pVrqXpwJomwLpV9bLl3D5axC4B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/views/components" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="757debd7-1e24-40a0-8618-67bbea1e3f82" name="Default Changelist" comment="" />
+      <created>1615279289755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615279289755</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="227" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615346639113">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state x="421" y="227" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.791/1440.25.1920.1055@0.25.1440.791" timestamp="1615346639113" />
+    <state x="533" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1615296369073">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="533" y="140" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875/1440.25.1920.971@0.25.1440.875" timestamp="1615296369073" />
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom" timestamp="1615424435194">
+      <screen x="0" y="25" width="1440" height="794" />
+    </state>
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.25.1440.791/1440.25.1920.1055@0.25.1440.791" timestamp="1615350999506" />
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.25.1440.794/1440.25.1920.1055@0.25.1440.794" timestamp="1615424435194" />
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.971@0.25.1440.875" timestamp="1615393968109" />
+    <state width="1398" height="235" key="GridCell.Tab.0.center" timestamp="1615424435193">
+      <screen x="0" y="25" width="1440" height="794" />
+    </state>
+    <state width="1398" height="235" key="GridCell.Tab.0.center/0.25.1440.791/1440.25.1920.1055@0.25.1440.791" timestamp="1615350999504" />
+    <state width="1398" height="235" key="GridCell.Tab.0.center/0.25.1440.794/1440.25.1920.1055@0.25.1440.794" timestamp="1615424435193" />
+    <state width="1398" height="235" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.971@0.25.1440.875" timestamp="1615393968108" />
+    <state width="1398" height="235" key="GridCell.Tab.0.left" timestamp="1615424435191">
+      <screen x="0" y="25" width="1440" height="794" />
+    </state>
+    <state width="1398" height="235" key="GridCell.Tab.0.left/0.25.1440.791/1440.25.1920.1055@0.25.1440.791" timestamp="1615350999503" />
+    <state width="1398" height="235" key="GridCell.Tab.0.left/0.25.1440.794/1440.25.1920.1055@0.25.1440.794" timestamp="1615424435191" />
+    <state width="1398" height="235" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.971@0.25.1440.875" timestamp="1615393968107" />
+    <state width="1398" height="235" key="GridCell.Tab.0.right" timestamp="1615424435194">
+      <screen x="0" y="25" width="1440" height="794" />
+    </state>
+    <state width="1398" height="235" key="GridCell.Tab.0.right/0.25.1440.791/1440.25.1920.1055@0.25.1440.791" timestamp="1615350999505" />
+    <state width="1398" height="235" key="GridCell.Tab.0.right/0.25.1440.794/1440.25.1920.1055@0.25.1440.794" timestamp="1615424435194" />
+    <state width="1398" height="235" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.971@0.25.1440.875" timestamp="1615393968108" />
+    <state x="500" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615362783622">
+      <screen x="0" y="25" width="1440" height="794" />
+    </state>
+    <state x="500" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.794/1440.25.1920.1055@0.25.1440.794" timestamp="1615362783622" />
+    <state x="372" y="163" width="696" height="486" key="find.popup" timestamp="1615422602159">
+      <screen x="0" y="25" width="1440" height="794" />
+    </state>
+    <state x="372" y="163" width="696" height="486" key="find.popup/0.25.1440.794/1440.25.1920.1055@0.25.1440.794" timestamp="1615422602159" />
+    <state x="372" y="177" width="696" height="486" key="find.popup/0.25.1440.875/1440.25.1920.971@0.25.1440.875" timestamp="1615371282687" />
+  </component>
+</project>

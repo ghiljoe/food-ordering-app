@@ -117,16 +117,22 @@ class MenuCategoryItemsPage extends StatelessWidget {
                           ),
                         );
                       }
-                      return Center(
-                        child: GlowingProgressIndicator(
-                          child: Icon(
-                            Icons.fastfood,
-                            size: 100,
+                      return Padding(
+                        padding: const EdgeInsets.only(top: 50),
+                        child: Center(
+                          child: GlowingProgressIndicator(
+                            child: Icon(
+                              Icons.fastfood,
+                              size: 100,
+                            ),
                           ),
                         ),
                       );
                     },
                   ),
+                  SizedBox(
+                    height: 100,
+                  )
                 ],
               ),
             ),
@@ -211,7 +217,7 @@ void addToCartBottomSheet(
                 width: double.infinity,
                 child: Image.network(
                   menuCategoryItem.image,
-                  fit: BoxFit.cover,
+                  fit: BoxFit.fill,
                 ),
               ),
               SizedBox(

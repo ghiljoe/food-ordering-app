@@ -22,6 +22,7 @@ class MenuController extends GetxController {
   var isValidVoucher = false.obs;
   var revealInvalidMessage = false.obs;
   var isLoadingPlaceOrder = false.obs;
+  var isLoadingGetOrderSummary = false.obs;
   var counter = 0.obs;
   String voucher = 'GO2018';
 
@@ -154,7 +155,7 @@ class MenuController extends GetxController {
   }
 
   double getTotalPriceWithTaxOrderSummary(OrderItem orderItem) {
-    var originalPrice = orderItem.totalPrice;
+    var originalPrice = double.parse(orderItem.totalPrice);
     var vat = originalPrice * orderItem.tax;
 
 //    return originalPrice;
@@ -186,7 +187,6 @@ class MenuController extends GetxController {
     revealInvalidMessage(false);
   }
 
-//  userId, totalAmount, itemCount, menuCategoryItemId
   void placeOrder() async {
     Map data = {
       "userId": localStorage.read('userId'),
@@ -199,6 +199,7 @@ class MenuController extends GetxController {
       if (orderResponse != null) {
         order = orderResponse;
         getOrderSummary(orderResponse.id);
+        Get.off(() => OrderSummaryPage());
       }
     } catch (e) {
       print(e);
@@ -208,13 +209,20 @@ class MenuController extends GetxController {
   }
 
   void getOrderSummary(int orderId) async {
-    var orderResponse = await MenuServices.getOrderItems(orderId);
-    if (orderResponse != null) {
-      orderItems = orderResponse;
-      cart.clear();
-      Get.off(() => OrderSummaryPage());
-    } else {
-      Toaster.normal('Something went wrong.');
+    try {
+      isLoadingGetOrderSummary(true);
+      var orderResponse = await MenuServices.getOrderItems(orderId);
+      if (orderResponse != null) {
+        orderItems = orderResponse;
+        cart.clear();
+//      Get.off(() => OrderSummaryPage());
+      } else {
+        Toaster.normal('Something went wrong.');
+      }
+    } catch (e) {
+      print(e);
+    } finally {
+      isLoadingGetOrderSummary(false);
     }
   }
 }

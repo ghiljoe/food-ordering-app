@@ -27,7 +27,7 @@ class OrderItem {
   int orderId;
   int menuCategoryItemId;
   int quantity;
-  double totalPrice;
+  String totalPrice;
   DateTime createdAt;
   DateTime updatedAt;
   String name;
