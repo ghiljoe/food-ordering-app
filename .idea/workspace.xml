@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="757debd7-1e24-40a0-8618-67bbea1e3f82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/config/config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config/config.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/controllers/menu_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/controllers/menu_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/order_item.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/order_item.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/views/cart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/cart.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/views/menu_category_items_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/menu_category_items_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/views/order_summary_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/order_summary_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
