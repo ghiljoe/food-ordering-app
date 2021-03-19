@@ -206,6 +206,10 @@ void addToCartBottomSheet(
     Stack(
       children: [
         Container(
+//          decoration: BoxDecoration(
+//            color: Colors.white,
+//            borderRadius: BorderRadius.all(Radius.circular(20)),
+//          ),
           height: MediaQuery.of(Get.context).size.width,
           color: Colors.white,
           width: double.infinity,
@@ -341,5 +345,6 @@ void addToCartBottomSheet(
       ],
     ),
     isDismissible: false,
+    enableDrag: false,
   );
 }

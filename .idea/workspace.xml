@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="757debd7-1e24-40a0-8618-67bbea1e3f82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/isolate_snapshot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Flutter.framework/Flutter" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Flutter.framework/Flutter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config/config.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/controllers/login_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/controllers/login_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/authentication_services.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/authentication_services.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/views/login_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/login_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/views/menu_category_items_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/views/menu_category_items_page.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,28 +72,28 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="533" y="140" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875/1440.25.1920.971@0.25.1440.875" timestamp="1615296369073" />
-    <state width="1398" height="235" key="GridCell.Tab.0.bottom" timestamp="1615424435194">
-      <screen x="0" y="25" width="1440" height="794" />
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom" timestamp="1616159026741">
+      <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.25.1440.791/1440.25.1920.1055@0.25.1440.791" timestamp="1615350999506" />
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.25.1440.791/1440.25.1920.1055@0.25.1440.791" timestamp="1616159026741" />
     <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.25.1440.794/1440.25.1920.1055@0.25.1440.794" timestamp="1615424435194" />
     <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.971@0.25.1440.875" timestamp="1615393968109" />
-    <state width="1398" height="235" key="GridCell.Tab.0.center" timestamp="1615424435193">
-      <screen x="0" y="25" width="1440" height="794" />
+    <state width="1398" height="235" key="GridCell.Tab.0.center" timestamp="1616159026739">
+      <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state width="1398" height="235" key="GridCell.Tab.0.center/0.25.1440.791/1440.25.1920.1055@0.25.1440.791" timestamp="1615350999504" />
+    <state width="1398" height="235" key="GridCell.Tab.0.center/0.25.1440.791/1440.25.1920.1055@0.25.1440.791" timestamp="1616159026739" />
     <state width="1398" height="235" key="GridCell.Tab.0.center/0.25.1440.794/1440.25.1920.1055@0.25.1440.794" timestamp="1615424435193" />
     <state width="1398" height="235" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.971@0.25.1440.875" timestamp="1615393968108" />
-    <state width="1398" height="235" key="GridCell.Tab.0.left" timestamp="1615424435191">
-      <screen x="0" y="25" width="1440" height="794" />
+    <state width="1398" height="235" key="GridCell.Tab.0.left" timestamp="1616159026739">
+      <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state width="1398" height="235" key="GridCell.Tab.0.left/0.25.1440.791/1440.25.1920.1055@0.25.1440.791" timestamp="1615350999503" />
+    <state width="1398" height="235" key="GridCell.Tab.0.left/0.25.1440.791/1440.25.1920.1055@0.25.1440.791" timestamp="1616159026739" />
     <state width="1398" height="235" key="GridCell.Tab.0.left/0.25.1440.794/1440.25.1920.1055@0.25.1440.794" timestamp="1615424435191" />
     <state width="1398" height="235" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.971@0.25.1440.875" timestamp="1615393968107" />
-    <state width="1398" height="235" key="GridCell.Tab.0.right" timestamp="1615424435194">
-      <screen x="0" y="25" width="1440" height="794" />
+    <state width="1398" height="235" key="GridCell.Tab.0.right" timestamp="1616159026740">
+      <screen x="0" y="25" width="1440" height="791" />
     </state>
-    <state width="1398" height="235" key="GridCell.Tab.0.right/0.25.1440.791/1440.25.1920.1055@0.25.1440.791" timestamp="1615350999505" />
+    <state width="1398" height="235" key="GridCell.Tab.0.right/0.25.1440.791/1440.25.1920.1055@0.25.1440.791" timestamp="1616159026740" />
     <state width="1398" height="235" key="GridCell.Tab.0.right/0.25.1440.794/1440.25.1920.1055@0.25.1440.794" timestamp="1615424435194" />
     <state width="1398" height="235" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.971@0.25.1440.875" timestamp="1615393968108" />
     <state x="500" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615362783622">

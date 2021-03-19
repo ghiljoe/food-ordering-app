@@ -17,4 +17,17 @@ class AuthenticationServices {
       return responseData;
     }
   }
+
+  static Future createUser(Map userDetails) async {
+    var headers = {'Content-Type': 'application/json'};
+    var response = await http.post(Config.API_URL + '/create-user',
+        headers: headers, body: json.encode(userDetails));
+    var responseData = json.decode(response.body);
+    if (response.statusCode == 200) {
+      return userFromJson(response.body);
+    } else {
+      print('Request failed with status: ${response.statusCode}.');
+      return responseData;
+    }
+  }
 }

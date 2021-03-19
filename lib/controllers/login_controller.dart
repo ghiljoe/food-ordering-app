@@ -13,6 +13,7 @@ class LoginController extends GetxController {
 
   final username = TextEditingController();
   final password = TextEditingController();
+
   var isLoading = false.obs;
   final localStorage = GetStorage();
   var isAuthenticated = false.obs;
@@ -33,6 +34,10 @@ class LoginController extends GetxController {
   }
 
   void login() async {
+    if (username.text.isEmpty || password.text.isEmpty) {
+      Toaster.normal('Username or password is required.');
+      return;
+    }
     Map credentials = {"email": username.text, "password": password.text};
     try {
       isLoading(true);
